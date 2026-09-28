@@ -63,6 +63,7 @@
   font-size: clamp(38px, 5vw, 58px);
   font-weight: 500;
   margin: 15px 0 0;
+  color: #17202a;
 }
 
 .hotel-list-header > p {
