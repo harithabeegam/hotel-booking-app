@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { deleteBooking } from "../redux/BookingSlice";
+import { deleteBooking } from "../redux/bookingSlice";
 import "./MyBookings.css";
 
 function MyBookings() {
@@ -74,17 +74,13 @@ function MyBookings() {
                 <p>
                   Guests: {booking.guests}
                 </p>
-
                 <p>
                   Check-in: {booking.checkIn}
                 </p>
-
                 <p>
                   Check-out: {booking.checkOut}
                 </p>
-
               </div>
-
               <button
                 className="cancel-btn"
                 onClick={() => handleDelete(booking.id)}

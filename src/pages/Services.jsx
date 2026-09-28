@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-import "./Services.css";
+import "./services.css";
 
 function Services() {
   return (
