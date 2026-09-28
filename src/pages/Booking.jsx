@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useParams, useNavigate } from "react-router-dom";
-import { addBooking } from "../redux/bookingSlice";
+import { addBooking } from "../redux/BookingSlice";
 import "./Booking.css";
 
 function Booking() {
